@@ -1,0 +1,14 @@
+.mainHeader {
+    background-color:aliceblue;
+  }
+
+.headerContainer {
+    background-color:white;
+    padding: 20px; 
+    object-fit: contain;
+    border: 1px solid black;
+  }
+
+.headerImage {
+    width: 20px;
+}
