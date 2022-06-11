@@ -31,9 +31,3 @@ const HeaderWrapper = styled.div``;
 const Btn = styled.button``;
 
 export default Header;
-
-// height: 50px;
-// background-color: white;
-// padding: 10px;
-// object-fit: contain;
-// border: 1px solid black;
