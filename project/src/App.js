@@ -5,6 +5,9 @@ import Header from "./components/Header.js";
 import Main from "./pages/Main.js";
 import Login from "./pages/Login.js";
 import SignUp from "./pages/SignUp.js";
+import DetailPost from "./pages/DetailPost.js";
+import EditPost from "./pages/EditPost";
+import WritePost from "./pages/WritePost";
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
         <Route path="/" element={Main} />
         <Route path="/Login" element={Login} />
         <Route path="/SignUp" element={SignUp} />
+        <Route path="/DetailPost" element={DetailPost} />
+        <Route path="/EditPost" element={EditPost} />
+        <Route path="/WritePost" element={WritePost} />
       </Routes>
     </div>
   );
